@@ -4,6 +4,7 @@
 * 基于Layui前端框架并兼容IE8浏览器 (https://gitee.com/flying_stars/ruoyi-layui)
 * 数据库使用Oracle，数据库sql文件位于**根目录/sql/ry_oracl_layui_20210119.sql**
 * 数据库配置信息位于：**根目录/ruoyi-admin/src/main/resources/application-druid.yml**
+* 修改了菜单获取的方法：根据user_id查询up_id, 根据up_id查询post_id, 根据post_id查询role_id, 根据role_id查询相应的菜单权限
 
 ## 内置功能
 
